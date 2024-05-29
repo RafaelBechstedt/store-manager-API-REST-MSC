@@ -42,8 +42,14 @@ A Store Manager API é uma aplicação para gerenciamento de vendas que utiliza 
    git clone https://github.com/usuario/store-manager.git
    cd store-manager
 
-2. Inicie os contêineres Docker:
+2. Instale as dependências:
+   ```sh
+   npm install
+   
+3. Inicie os contêineres Docker:
    ```sh
    docker-compose up -d
 
-2. Acesse a API em http://localhost:3000.
+4. Execute o projeto:
+   ````sh
+   npm start
